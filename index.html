@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- Set height of the html element to 100% or the footer won't stick -->
+<html lang="en" class="h-100">
 
 
 <head>
 
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
 	<title>Tim Silby - Bio</title>
+
 
 	<!-- Link to bootstrap css -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+
 </head>
 
 
-<body>
+<!-- Set body display to flex column to enable the sticky footer -->
+<body class="bg-secondary d-flex flex-column h-100">
 
 
 	<!-- Header row -->
-	<header class="navbar navbar-expand-sm navbar-dark bg-dark">
+	<header class="navbar navbar-expand-sm navbar-dark bg-dark flex-shrink-0">
 
 
 		<!-- Main heading in the navbar, clicking goes to index.html -->
 		<a href="index.html" class="navbar-brand">Tim Silby</a>
 
 
-		<!-- Hamburger menu button that appears below the breakpoint -->
+		<!-- Hamburger menu toggle button that appears when below the breakpoint -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 
-		<!-- Navigation links, these collapse below the breakpoint -->
+		<!-- Navigation links, these collapse to the toggle button when below the breakpoint -->
 		<nav class="collapse navbar-collapse" id="navbarNav">
 
 			<ul class="navbar-nav ml-auto">
@@ -51,8 +58,44 @@
 			
 		</nav>
 
-		
+
 	</header>
+
+
+	<!-- Main page content -->
+	<main class="container bg-light my-4 flex-shrink-0">
+
+
+			<h1 class="display-4">About Me</h1>
+
+
+			<img src="https://via.placeholder.com/200" alt="Tim" class="float-left mr-4 mb-3">
+
+			<p>
+				Nelsons folly parrel Spanish Main yardarm heave down tackle chase gibbet reef rum. Starboard Plate Fleet Sail ho dead men tell no tales topsail lanyard spanker reef sails tack Barbary Coast. Barbary Coast jib scuttle grapple keel code of conduct Sea Legs pink Buccaneer Nelsons folly.
+			</p>
+
+			<p>
+				Gangplank weigh anchor chandler scuttle Brethren of the Coast main sheet spike Shiver me timbers boatswain smartly. League log pink wherry schooner shrouds draught coffer gally chandler. Topmast hail-shot brigantine log bilge water killick doubloon pink landlubber or just lubber handsomely.
+			</p>
+
+			<p>
+				Yard parley rutters Jolly Roger belay Shiver me timbers Spanish Main execution dock boom draught. Jib lanyard fire in the hole Yellow Jack loaded to the gunwalls rope's end port aft American Main nipperkin. Killick overhaul Sail ho pressgang warp Letter of Marque run a shot across the bow splice the main brace crow's nest grapple.
+			</p>
+			
+
+	</main>
+
+
+	<!-- Footer -->
+	<!-- Set top margin to auto to make it sticky -->
+	<footer class="bg-dark text-center text-white-50 py-3 mt-auto">
+
+
+		<p>&copy; Copyright 2020</p>
+
+
+	</footer>
 
 
 	<!-- Add links to js, otherwise the navigation menu won't collapse -->
