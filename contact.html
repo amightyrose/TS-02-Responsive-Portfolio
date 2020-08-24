@@ -63,7 +63,90 @@
 
 
 	<!-- Main page content -->
-	<main class="container bg-light my-4 flex-shrink-0">
+	<main class="container bg-light my-4 p-4 flex-shrink-0">
+
+
+		<!-- Page header -->
+		<h1 class="display-5 pt-2 font-weight-bolder">Contact</h1>
+
+		<hr>
+
+
+		<!-- Contact form section -->
+		<!-- Use the grid to lay out the form elements. They will stack on xs screens then expand
+		horizontally on larger screens. Add the 'required' attribute to some input fields for validation -->
+		<form>
+
+			<!-- Input boxes for first name and last name -->
+			<div class="form-group form-row">
+
+				<label for="inputFirstName" class="col-form-label col-sm-2">Name</label>
+
+				<div class="col-sm-5">
+					<input type="text" id="inputFirstName" class="form-control" placeholder="First name" required>
+				</div>
+
+				<div class="col-sm-5">
+					<input type="text" id="inputLastName" class="form-control" placeholder="Last name">
+				</div>
+
+			</div>	
+			
+			<!-- Input box for email address -->
+			<div class="form-group form-row">
+
+				<label for="inputEmail" class="col-form-label col-sm-2">Email</label>
+
+				<div class="col-sm-10">
+					<input type="email" id="inputEmail" class="form-control" placeholder="Email" required>
+				</div>
+
+			</div>	
+			
+			<!-- Input box for message text -->
+			<div class="form-group form-row">
+
+				<label for="inputMessage" class="col-form-label col-sm-2">Message</label>
+
+				<div class="col-sm-10">
+					<textarea id="inputMessage" class="form-control" rows="4" placeholder="Write message here" required></textarea>
+				</div>
+
+			</div>	
+			
+			<!-- Checkbox for spam permission -->
+			<div class="form-group form-row">
+
+				<!-- Insert an empty column to line up the checkbox with the other input fields -->
+				<div class="col-sm-2"></div>
+				
+				<!-- Wrap the checkbox in another column to help alignment -->
+				<div class="col-sm-10">
+
+					<div class="form-check">
+
+						<input class="form-check-input" type="checkbox" id="spamCheck">
+
+						<label class="form-check-label" for="spamCheck">Please send me spam</label>
+					
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Submit button -->
+			<!-- Add the 'justify-content-center' class to center the button and some padding to push it down a bit -->
+			<div class="form-group form-row justify-content-center pt-3">
+
+				<button type="submit" class="btn btn-secondary">Submit</button>
+
+			</div>
+
+
+		</form>
+
+
 	</main>
 
 
