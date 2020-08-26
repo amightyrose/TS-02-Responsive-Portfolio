@@ -16,16 +16,16 @@ The website needs to meet the following criteria:
 
 The following screenshots show the portfolio page at three different screen sizes:
 
----
-#### 320px
+
+### 320px
 
 ![portfolio_320px](https://user-images.githubusercontent.com/69242373/91299071-6b7aef80-e7e4-11ea-997e-e78e75c5c611.png)
 
-#### 576px
+### 576px
 
 ![portfolio_576px](https://user-images.githubusercontent.com/69242373/91299119-7a61a200-e7e4-11ea-8b01-0c8ae1fe9cc9.png)
 
-#### 992px
+### 992px
 
 ![portfolio_992px](https://user-images.githubusercontent.com/69242373/91299127-7c2b6580-e7e4-11ea-83d2-ed8b8bdd0cd7.png)
 
