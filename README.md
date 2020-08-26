@@ -37,5 +37,5 @@ The following screenshots show the portfolio page at three different screen size
 ![portfolio_992px](https://user-images.githubusercontent.com/69242373/91299127-7c2b6580-e7e4-11ea-83d2-ed8b8bdd0cd7.png)
 
 
-####
+#### Author
 Tim Silby (tim.silby@gmail.com)
