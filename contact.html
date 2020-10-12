@@ -5,7 +5,7 @@
 
 
 <head>
-	
+
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +23,7 @@
 
 
 <!-- Set body display to flex column to enable the sticky footer -->
-<body class="bg-secondary d-flex flex-column h-100">
+<body class="d-flex flex-column h-100">
 
 
 	<!-- Header row -->
@@ -56,10 +56,10 @@
 				</li>
 
 			</ul>
-			
+
 		</nav>
 
-		
+
 	</header>
 
 
@@ -84,52 +84,52 @@
 				<label for="inputFirstName" class="col-form-label col-sm-2">Name</label>
 
 				<div class="col-sm-5">
-					<input type="text" id="inputFirstName" class="form-control" placeholder="First name" required>
+					<input type="text" id="inputFirstName" class="form-control" placeholder="First name" required disabled>
 				</div>
 
 				<div class="col-sm-5">
-					<input type="text" id="inputLastName" class="form-control" placeholder="Last name">
+					<input type="text" id="inputLastName" class="form-control" placeholder="Last name" disabled>
 				</div>
 
-			</div>	
-			
+			</div>
+
 			<!-- Input box for email address -->
 			<div class="form-group form-row">
 
 				<label for="inputEmail" class="col-form-label col-sm-2">Email</label>
 
 				<div class="col-sm-10">
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email" required>
+					<input type="email" id="inputEmail" class="form-control" placeholder="Email" required disabled>
 				</div>
 
-			</div>	
-			
+			</div>
+
 			<!-- Input box for message text -->
 			<div class="form-group form-row">
 
 				<label for="inputMessage" class="col-form-label col-sm-2">Message</label>
 
 				<div class="col-sm-10">
-					<textarea id="inputMessage" class="form-control" rows="4" placeholder="Write message here" required></textarea>
+					<textarea id="inputMessage" class="form-control" rows="4" placeholder="Write message here" required disabled></textarea>
 				</div>
 
-			</div>	
-			
+			</div>
+
 			<!-- Checkbox for spam permission -->
 			<div class="form-group form-row">
 
 				<!-- Insert an empty column to line up the checkbox with the other input fields -->
 				<div class="col-sm-2"></div>
-				
+
 				<!-- Wrap the checkbox in another column to help alignment -->
 				<div class="col-sm-10">
 
 					<div class="form-check">
 
-						<input class="form-check-input" type="checkbox" id="spamCheck">
+						<input class="form-check-input" type="checkbox" id="spamCheck" disabled>
 
 						<label class="form-check-label" for="spamCheck">Please send me spam</label>
-					
+
 					</div>
 
 				</div>
@@ -140,7 +140,7 @@
 			<!-- Add the 'justify-content-center' class to center the button and some padding to push it down a bit -->
 			<div class="form-group form-row justify-content-center pt-3">
 
-				<button type="submit" class="btn btn-secondary">Submit</button>
+				<button type="submit" class="btn btn-secondary" disabled>Submit</button>
 
 			</div>
 
