@@ -1,5 +1,7 @@
 body {
+	background-color: black;
+}
 
-	background-image: url("double-bubble-dark.png");
-
+.text-smaller {
+	font-size: 0.8rem;
 }
