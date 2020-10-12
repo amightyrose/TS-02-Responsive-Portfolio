@@ -1,5 +1,7 @@
 body {
-
 	background-color: black;
+}
 
+.text-smaller {
+	font-size: 0.8rem;
 }
